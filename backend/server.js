@@ -18,7 +18,7 @@ app.use(
 );
 
 app.use(express.static("frontend"));
-app.use(express.static(path.join(__dirname, "../frontend")));
+app.use(express.static(path.join(__dirname, "./frontend")));
 
 
 
@@ -27,7 +27,7 @@ app.use("/user", userRoutes);
 app.use("/admin", adminRoutes);
 
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "../frontend", "login.html"));
+    res.sendFile(path.join(__dirname, "./frontend", "login.html"));
 });
 app.listen(3000, () => {
     console.log("Server running on http://localhost:3000");
