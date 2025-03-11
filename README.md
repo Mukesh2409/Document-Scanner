@@ -1,6 +1,6 @@
 # Document Scanner (Full Stack Project)
 
-This repository contains both the **frontend** and **backend** for the Cathago Assignment.  
+This repository contains both the **frontend** and **backend** .  
 The **backend** is built using **Node.js, Express, and SQLite**, while the **frontend** is structured separately.
 
 ---
